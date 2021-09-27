@@ -1,38 +1,156 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+  --neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background: var(--primary-pale-blue);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0 22px;
+}
+
+.card {
+  min-height: 63vh;
+  width: 400px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 8px 23px var(--neutral-desaturated-blue);
+  overflow: hidden;
+}
+
+.heroImage {
+  height: 30%;
+  width: 100%;
+  /* background: chartreuse; */
+}
+
+.card-body {
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutral-desaturated-blue);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.subscription {
+  width: 100%;
+  background: var(--neutral-very-pale-blue);
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
+  flex-grow: 1;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.subscription img {
+  width: 15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+ul {
+  margin-left: 20px;
+}
+
+ul > li {
+  font-weight: 700;
+}
+
+.subscription li {
+  list-style: none;
+}
+
+.price {
+  color: var(--neutral-desaturated-blue);
+  font-weight: 500;
+}
+
+.changeLink {
+  margin-left: auto;
+}
+
+.changeLink:hover,
+.changeLink:active {
+  text-decoration: none;
+  color: hsl(245, 75%, 68%);
+}
+
+button a {
+  text-decoration: none;
+}
+
+.paymentButton {
+  background-color: var(--primary-bright-blue);
+  border: none;
+  margin: 20px 0;
+  padding: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0px 18px 23px hsla(245, 75%, 52%, 0.27);
+}
+
+.paymentButton a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.paymentButton:hover,
+.paymentButton:active {
+  background-color: hsl(245, 75%, 68%);
+}
+
+.cancelButton {
+  background-color: transparent;
+  border: none;
+  margin: 0 20px 0 0;
+  padding: 15px 0;
+  border-radius: 10px;
+}
+
+.cancelButton a {
+  color: rgb(112, 110, 110);
+  font-weight: 700;
+}
+
+.cancelButton a:hover,
+.cancelButton a:active {
+  color: black;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
   }
 }
