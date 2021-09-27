@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/juliancameron79/order-summary-component/static/css/main.2242e368.chunk.css",
+    "main.js": "/juliancameron79/order-summary-component/static/js/main.485b8aa8.chunk.js",
+    "main.js.map": "/juliancameron79/order-summary-component/static/js/main.485b8aa8.chunk.js.map",
+    "runtime-main.js": "/juliancameron79/order-summary-component/static/js/runtime-main.fbf1377a.js",
+    "runtime-main.js.map": "/juliancameron79/order-summary-component/static/js/runtime-main.fbf1377a.js.map",
+    "static/js/2.0e406129.chunk.js": "/juliancameron79/order-summary-component/static/js/2.0e406129.chunk.js",
+    "static/js/2.0e406129.chunk.js.map": "/juliancameron79/order-summary-component/static/js/2.0e406129.chunk.js.map",
+    "index.html": "/juliancameron79/order-summary-component/index.html",
+    "static/css/main.2242e368.chunk.css.map": "/juliancameron79/order-summary-component/static/css/main.2242e368.chunk.css.map",
+    "static/js/2.0e406129.chunk.js.LICENSE.txt": "/juliancameron79/order-summary-component/static/js/2.0e406129.chunk.js.LICENSE.txt",
+    "static/media/icon-music.f20c7787.svg": "/juliancameron79/order-summary-component/static/media/icon-music.f20c7787.svg",
+    "static/media/illustration-hero.73032583.svg": "/juliancameron79/order-summary-component/static/media/illustration-hero.73032583.svg",
+    "static/media/App.css": "/juliancameron79/order-summary-component/static/media/pattern-background-mobile.c8d50fcb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbf1377a.js",
+    "static/js/2.0e406129.chunk.js",
+    "static/css/main.2242e368.chunk.css",
+    "static/js/main.485b8aa8.chunk.js"
+  ]
+}
