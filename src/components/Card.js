@@ -20,12 +20,8 @@ const Card = () => {
               Change
             </a>
           </div>
-          <button className="paymentButton">
-            <a href="#">Proceed to Payment</a>
-          </button>
-          <button className="cancelButton">
-            <a href="#">Cancel Order</a>
-          </button>
+          <button className="paymentButton">Proceed to Payment</button>
+          <button className="cancelButton">Cancel Order</button>
         </div>
       </div>
     </div>

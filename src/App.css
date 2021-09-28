@@ -43,11 +43,10 @@ body {
 .heroImage {
   height: 30%;
   width: 100%;
-  /* background: chartreuse; */
 }
 
 .card-body {
-  padding: 30px 20px 20px 20px;
+  padding: 30px 35px 20px 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,6 +59,7 @@ body {
 
 .card-text {
   font-size: 16px;
+  line-height: 1.5;
   font-weight: 500;
   color: var(--neutral-desaturated-blue);
   text-align: center;
@@ -68,11 +68,10 @@ body {
 .subscription {
   width: 100%;
   background: var(--neutral-very-pale-blue);
-  padding: 20px 30px;
+  padding: 20px 20px;
   border-radius: 10px;
   margin-top: 20px;
   display: flex;
-  flex-grow: 1;
   flex-direction: row;
   align-items: center;
 }
@@ -91,6 +90,7 @@ ul > li {
 
 .subscription li {
   list-style: none;
+  font-size: 14px;
 }
 
 .price {
@@ -100,6 +100,7 @@ ul > li {
 
 .changeLink {
   margin-left: auto;
+  font-size: 14px;
 }
 
 .changeLink:hover,
@@ -108,20 +109,13 @@ ul > li {
   color: hsl(245, 75%, 68%);
 }
 
-button a {
-  text-decoration: none;
-}
-
 .paymentButton {
   background-color: var(--primary-bright-blue);
   border: none;
-  margin: 20px 0;
+  margin: 25px 0 20px 0;
   padding: 15px 0;
   border-radius: 10px;
   box-shadow: 0px 18px 23px hsla(245, 75%, 52%, 0.27);
-}
-
-.paymentButton a {
   color: #fff;
   font-weight: 700;
 }
@@ -134,18 +128,14 @@ button a {
 .cancelButton {
   background-color: transparent;
   border: none;
-  margin: 0 20px 0 0;
   padding: 15px 0;
   border-radius: 10px;
-}
-
-.cancelButton a {
   color: rgb(112, 110, 110);
   font-weight: 700;
 }
 
-.cancelButton a:hover,
-.cancelButton a:active {
+.cancelButton:hover,
+.cancelButton:active {
   color: black;
 }
 
